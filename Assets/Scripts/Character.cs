@@ -8,7 +8,7 @@ public class Character : MonoBehaviour
     public bool OnChair;
     public float SpeedChair;
     public bool move;
-    public GameObject Gun;
+    public Gun Gun;
     public AudioSource[] CharacterSound; // нужно для включение параллельного звука 0-бег 1-прыжок 2-приземление
     public AudioClip[] ActionsSound; //сдесь находятся все нужные нам действия, работаю по одиночке, а не все сразу
     public List<string> ActionSoundsList;
@@ -29,7 +29,21 @@ public class Character : MonoBehaviour
         rigidbody2d = GetComponent<Rigidbody2D>();
         move = true;
        
-
+       
+    }
+    private void Start()
+    {
+        Gun = Gun == null ? GetComponent<Gun>() : Gun;
+    }
+    private void Update()
+    {
+        if (Gun != null)
+        {
+            if (Input.GetKeyUp(KeyCode.E))
+            {
+                Gun.NewGun();
+            }
+        }
     }
 
     private void FixedUpdate()
