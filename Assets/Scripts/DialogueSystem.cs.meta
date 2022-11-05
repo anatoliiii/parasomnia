@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7a5a0a2712cf023419b0790886fe92cb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - dialogueWindow: {fileID: 1260803089194168952, guid: 647b95b916c8f7c498fac2e327f4bc52, type: 3}
+  - dialogueText: {fileID: 1565358002564096478, guid: d5d7ebcf3a4dcac4195664fb77a5b7d5, type: 3}
+  - nextButton: {fileID: 2196813265239839971, guid: 5a24dfd22a8c61b499a1bfcccbfdef7e, type: 3}
+  - beginDialogueButton: {fileID: 7508253110187418978, guid: e5f45f1d983935e479c825861a259921, type: 3}
+  - closeDialogueButton: {fileID: 1871037933789587216, guid: 8881f26a1ee7a1c48a61fbfe29edf0bc, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

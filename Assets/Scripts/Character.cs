@@ -9,6 +9,9 @@ public class Character : MonoBehaviour
     public float SpeedChair;
     public bool move;
     public Gun Gun;
+
+    public Animator anim;
+
     public AudioSource[] CharacterSound; // нужно для включение параллельного звука 0-бег 1-прыжок 2-приземление
     public AudioClip[] ActionsSound; //сдесь находятся все нужные нам действия, работаю по одиночке, а не все сразу
     public List<string> ActionSoundsList;
@@ -28,8 +31,8 @@ public class Character : MonoBehaviour
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         move = true;
-       
-       
+        anim = gameObject.GetComponent<Animator>();
+
     }
     private void Start()
     {
@@ -51,10 +54,12 @@ public class Character : MonoBehaviour
         CheckGrund();
         if (IsGrounded && !Input.GetButton("Horizontal"))
         {
+            anim.SetInteger("State", 0);
             CharacterSound[0].Stop();
         }
         if (rigidbody2d.velocity.y != 0)
         {
+            anim.SetInteger("State", 1);
             CharacterSound[0].Stop();
             CheckSoundDown = false;
         }
@@ -78,8 +83,7 @@ public class Character : MonoBehaviour
         {
             if (IsGrounded)
             {
-
-                
+                anim.SetInteger("State", 1);
 
                 if (!CharacterSound[0].isPlaying && IsGrounded) CharacterSound[0].Play();
             }
@@ -120,6 +124,7 @@ public class Character : MonoBehaviour
     {
         if (IsGrounded && move)
         {
+            anim.SetInteger("State", 1);
             CharacterSound[1].Play();
             Vector2 speedY = rigidbody2d.velocity;
             speedY.y = 0;

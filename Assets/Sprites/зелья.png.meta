@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -120,8 +120,8 @@ TextureImporter:
       name: "\u0437\u0435\u043B\u044C\u044F_0"
       rect:
         serializedVersion: 2
-        x: 134
-        y: 144
+        x: 230
+        y: 169
         width: 459
         height: 850
       alignment: 0
@@ -141,10 +141,10 @@ TextureImporter:
       name: "\u0437\u0435\u043B\u044C\u044F_1"
       rect:
         serializedVersion: 2
-        x: 1181
-        y: 56
+        x: 741
+        y: 95
         width: 595
-        height: 938
+        height: 925
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,6 +154,27 @@ TextureImporter:
       bones: []
       spriteID: 84667914210f83847861dec7ef498a1f
       internalID: 382581263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0437\u0435\u043B\u044C\u044F_2"
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 81
+        width: 130
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e83395611ad75f48a439a333d0bfda6
+      internalID: 1484418157
       vertices: []
       indices: 
       edges: []
@@ -170,6 +191,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       "\u0437\u0435\u043B\u044C\u044F_1": 382581263
+      "\u0437\u0435\u043B\u044C\u044F_2": 1484418157
       "\u0437\u0435\u043B\u044C\u044F_0": -409779854
   spritePackingTag: 
   pSDRemoveMatte: 0
