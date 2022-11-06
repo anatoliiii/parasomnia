@@ -306,6 +306,7 @@ GameObject:
   - component: {fileID: 995778540}
   - component: {fileID: 995778542}
   - component: {fileID: 995778545}
+  - component: {fileID: 296354606156893441}
   - component: {fileID: 2520576243845087418}
   - component: {fileID: 3997856408638616732}
   - component: {fileID: 3384044273916851746}
@@ -419,6 +420,7 @@ MonoBehaviour:
   SpeedChair: 5
   move: 0
   Gun: {fileID: 2973519354034864684}
+  anim: {fileID: 0}
   CharacterSound:
   - {fileID: 3384044273916851746}
   - {fileID: 3997856408638616732}
@@ -434,6 +436,19 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &296354606156893441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3748035323494242995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e53cea8ef14fc43bd8deb258f825c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Collider1: {fileID: 0}
 --- !u!82 &2520576243845087418
 AudioSource:
   m_ObjectHideFlags: 0
