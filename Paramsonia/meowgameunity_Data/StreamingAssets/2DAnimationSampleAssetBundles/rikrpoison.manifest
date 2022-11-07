@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 4164245779
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dc319aa9e5533bd156317b25eb2eb214
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 40ddd97f0ef6bb637fceb067a072d93b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 307a736764ebbce44b54d72f8467b6fd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bf2edee5c58d82540a51f03df9d42094, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 11145981673336645838492a2d98e247, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 572910c10080c0945a0ef731ccedc739, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.2D.Animation.Runtime
+  ClassName: UnityEngine.U2D.Animation.SpriteCategoryEntry
+- AssemblyName: Unity.2D.Animation.Runtime
+  ClassName: UnityEngine.U2D.Animation.SpriteLibCategory
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Experimental.Rendering.Universal.RenderObjects/CustomCameraSettings
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Experimental.Rendering.Universal.RenderObjects/FilterSettings
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Experimental.Rendering.Universal.RenderObjects/RenderObjectsSettings
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.Light2DBlendStyle
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.PostProcessData/ShaderResources
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.PostProcessData/TextureResources
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.ScriptableRendererData/DebugShaderResources
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.StencilStateData
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.UniversalRendererData/ShaderResources
+- AssemblyName: Unity.RenderPipelines.Universal.Runtime
+  ClassName: UnityEngine.Rendering.Universal.XRSystemData/ShaderResources
+Assets:
+- Assets/UniversalRenderPipelineAsset.asset
+- Assets/UniversalRenderPipelineAsset_Renderer.asset
+- Assets/Samples/2D Animation/3.2.1/Samples/5 SpriteSwap/Sprites/Rikr Poison.png
+- Assets/2D Renderer Data.asset
+- Assets/Samples/2D Animation/3.2.1/Samples/5 SpriteSwap/Sprite Library/Rikr Poison.asset
+Dependencies: []

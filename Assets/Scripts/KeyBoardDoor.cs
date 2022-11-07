@@ -4,8 +4,6 @@ public class KeyBoardDoor : MonoBehaviour
 {
     public Doors Doors;
     private GameObject Player;
-
-    public bool locfk = false;
     private void Start()
     {
         Player = GameObject.FindWithTag("Player");
@@ -18,7 +16,7 @@ public class KeyBoardDoor : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.F))
             {
-                    Doors.StartGame();
+                    Doors.StartScene();
             }
         }
 

@@ -16,10 +16,6 @@ public class Doors : MonoBehaviour
    
     public string _nameScene;
     private bool _player = false;
-    public void StartGame()
-    {
-    }
-
     public void StartScene()
     {
         //Метод запускающий сцену, вызывается в апдейте, когда прозрачность картинки станет достаточно низкой, т.е. экран затемнится
